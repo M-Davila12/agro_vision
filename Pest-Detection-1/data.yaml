@@ -1,0 +1,17 @@
+names:
+- brown-planthopper
+- green-leafhopper
+- leaf-folder
+- rice-bug
+- stem-borer
+- whorl-maggot
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: pest-detection-ntbss-vcggi
+  url: https://universe.roboflow.com/agroia/pest-detection-ntbss-vcggi/dataset/1
+  version: 1
+  workspace: agroia
+test: ../test/images
+train: ../train/images
+val: ../valid/images
